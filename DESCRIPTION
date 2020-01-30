@@ -9,18 +9,18 @@ URL: https://github.com/MarianoRuzJurado/RNASeq
 Description: An easy way to perform full RNA-seq analysis with any set of samples. 
   	Based on differential expression tools like DESeq2 or EdgeR.
 	By providing your data it creates heatmaps and tables with GO-overrepresentation tests
-License:
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports: 
     ape,
     limma,
-    gplots,
-    clusterProfiler (>= 3.14.3),
-    apeglm (>= 1.8.0),
-    org.Hs.eg.db (>= 3.10.0)
+    gplots
 Depends: 
     methods,
     ShortRead (>= 1.44.1),
     Biostrings,
-    Rsamtools (>= 2.2.1)
+    Rsamtools (>= 2.2.1),
+    apeglm (>= 1.8.0),
+    clusterProfiler (>= 3.14.3),
+    org.Hs.eg.db (>= 3.10.0)
