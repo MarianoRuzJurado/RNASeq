@@ -5,11 +5,12 @@ Version: 0.1.0
 Author: c(
    person("Ruz Jurado", "Mariano", ,role = c("aut", cre"))
 	 )
-
+Maintainer: Mariano Ruz Jurado
+URL: https://github.com/MarianoRuzJurado/RNASeq
 Description: An easy way to perform full RNA-seq analysis with any set of samples. 
   	Based on differential expression tools like DESeq2 or EdgeR.
 	By providing your data it creates heatmaps and tables with GO-overrepresentation tests
-License: MarianoCorp
+License:
 Encoding: UTF-8
 LazyData: true
 Depends:
@@ -19,7 +20,7 @@ Depends:
     ShortRead(>=1.37.1)
     methods
 Imports:
-    BiocGenerics, 
+BiocGenerics, 
     GenomicRanges, 
     GenomicFeatures(>= 1.31.3), 
     SummarizedExperiment, 
