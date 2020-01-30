@@ -1,11 +1,26 @@
 Package: RNAseqSyspiperPackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A workflow for RNA-Seq analysis. 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: c(
+   person("Ruz Jurado", "Mariano", ,role = c("aut", cre"))
+	 )
+
+Description: An easy way to perform full RNA-seq analysis with any set of samples. 
+  	Based on differential expression tools like DESeq2 or EdgeR.
+	By providing your data it creates heatmaps and tables with GO-overrepresentation tests
+License: MarianoCorp
 Encoding: UTF-8
 LazyData: true
+Depends:
+    R (>= 3.4)
+    Rsamtools (>=1.31.2)
+    Biostrings
+    ShortRead(>=1.37.1)
+    methods
+Imports:
+    systemPipeR
+
+
+
+		
