@@ -20,7 +20,7 @@ Depends:
     ShortRead(>=1.37.1)
     methods
 Imports:
-BiocGenerics, 
+    BiocGenerics, 
     GenomicRanges, 
     GenomicFeatures(>= 1.31.3), 
     SummarizedExperiment, 
