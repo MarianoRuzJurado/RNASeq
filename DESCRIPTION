@@ -19,3 +19,8 @@ Imports:
     clusterProfiler (>= 3.14.3),
     apeglm (>= 1.8.0),
     org.Hs.eg.db (>= 3.10.0)
+Depends: 
+    methods,
+    ShortRead (>= 1.44.1),
+    Biostrings,
+    Rsamtools (>= 2.2.1)
