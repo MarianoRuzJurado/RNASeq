@@ -13,8 +13,9 @@ License:
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    methods,
-    ShortRead,
-    Biostrings,
-    Rsamtools,
-    systemPipeR
+    ape,
+    limma,
+    gplots,
+    clusterProfiler,
+    apeglm,
+    org.Hs.eg.db
