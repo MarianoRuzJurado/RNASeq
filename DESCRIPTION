@@ -16,6 +16,6 @@ Imports:
     ape,
     limma,
     gplots,
-    clusterProfiler,
-    apeglm,
-    org.Hs.eg.db
+    clusterProfiler (>= 3.14.3),
+    apeglm (>= 1.8.0),
+    org.Hs.eg.db (>= 3.10.0)
