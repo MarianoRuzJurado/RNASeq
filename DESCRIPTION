@@ -13,4 +13,8 @@ License:
 Encoding: UTF-8
 LazyData: true
 Imports:
-    systemPipeR
+    systemPipeR,
+    Rsamtools,
+    Biostrings,
+    ShortRead,
+    methods
