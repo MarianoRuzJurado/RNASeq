@@ -12,9 +12,9 @@ Description: An easy way to perform full RNA-seq analysis with any set of sample
 License:
 Encoding: UTF-8
 LazyData: true
-Imports:
-    systemPipeR,
-    Rsamtools,
-    Biostrings,
+Imports: 
+    methods,
     ShortRead,
-    methods
+    Biostrings,
+    Rsamtools,
+    systemPipeR
